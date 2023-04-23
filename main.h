@@ -3,13 +3,14 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
-#define UNUSED(x) (void)(x)
-#define BUFF_SIZE1024
 
-/*FLAGS*/
+#define UNUSED(x) (void)(x)
+#define BUFF_SIZE 1024
+
+/* FLAGS */
 #define F_MINUS 1
 #define F_PLUS 2
-#define F_zero 4
+#define F_ZERO 4
 #define F_HASH 8
 #define F_SPACE 16
 
